@@ -45,7 +45,7 @@ orders = requests.get(
 
 
 # # pretty print the JSON response
-# print(json.dumps(orders.json(), indent=2))
+print(json.dumps(orders.json(), indent=2))
 
 
 @dataclass
